@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+}
+
+
+.box1{
+    border: solid #ff671f;
+    width: 110px;
+    height: 200px;
+    background-image: url(peacock.jpg);
+    color: yellow;
+    padding: 50px;
+    overflow-y: scroll;
+    background-size: contain;
+}
+
+.box2{
+    border: #ff671f;
+    width: 216px;
+    height: 300px;
+    background-image: url(taj\ mahal.jpg);
+    color: blue;
+    padding: 20px;
+    overflow-y: scroll;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
