@@ -1,0 +1,38 @@
+.header1{
+    border:solid;
+   margin: 30px;
+   width: 200px;
+   height: 350px;
+   border-radius: 20px;
+   cursor: pointer;
+   box-shadow: 1px 1px 40px;
+   transition: .3s ease-in-out;
+   display: inline-block;
+}
+
+.header1:hover{
+    transform: translateY(-10px);
+}
+
+.header1 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+.header1 h1{
+    background-color: green;
+    margin: 0;
+    text-align: center;
+}
+
+span{
+    margin: 0;
+    display: block;
+}
+
+button{
+    background-color: yellow;
+    border-radius: 30px;
+    margin: 7px;
+}
