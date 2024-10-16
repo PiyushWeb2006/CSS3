@@ -1,0 +1,88 @@
+body{
+    background-color: black;
+}
+
+.flag1{
+    margin: auto;
+    /* border: 2px solid red; */
+    width: 500px;
+    height: 500px;
+    display: flex;
+}
+.kesarBox{
+    width: 300px;
+    height: 500px;
+    background-color: #ff8200;
+}
+.whiteBox{ 
+    width: 300px;
+    height: 500px;
+    background-color: #ffff;
+}
+.greenBox{
+    width: 300px;
+    height: 500px;
+    background-color: #009a44;
+}
+
+.flag2{
+    margin: auto;
+    /* border: 2px solid red; */
+    width: 490px;
+    height: 300px;
+}
+.orange{
+    background-color: #ff671f;
+    height: 100px;
+}
+.white{
+    height: 100px;
+    background-color: #ffffff;
+}
+.green{
+    height: 100px;
+    background-color: #51a025;
+}
+.ashokChakra{
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #06038d;
+    border-radius: 50%;
+    
+}
+.moon{
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: linear-gradient(to left, red, yellow, blue);
+    box-shadow: -2px -2px 50px #EDF5F4;
+    animation: rotate 5s linear infinite;
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(-360deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.table{
+    border: 10px solid green;
+    width: 235px;
+    color: #ffffff;
+    border-top-width: 1px;
+    border-top-style: double;
+    border-top-color:aqua;
+    border-right-width: 3px;
+    border-right-style: groove;
+    border-right-color: red;
+    border-bottom-width: 4px;
+    border-bottom-style: dotted;
+    border-bottom-color: yellow;
+}
+table{
+    border-collapse: collapse;
+}
