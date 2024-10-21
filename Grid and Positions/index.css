@@ -1,0 +1,36 @@
+.container{
+    display: grid;
+    border: 2px solid;
+    width: 50vw;
+    height: 50vh;
+    justify-content: center;
+    grid-column: 200px 200px 200px 200px;
+}
+
+.header{
+}
+.main img{
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    align-content: center;
+}
+
+.main h1{
+    background-color: green;
+}
+
+span{
+    display: block;
+    text-align: center;
+}
+
+button{
+    background-color: yellow;
+    border-radius: 30px;
+    /* margin: 7px; */
+    /* justify-content: center; */
+}
+.footer{
+    text-align: center;
+}
